@@ -10,9 +10,16 @@
 		ACB87A8F296DC5F7000CDCC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB87A8E296DC5F7000CDCC9 /* AppDelegate.swift */; };
 		ACB87A91296DC5F7000CDCC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB87A90296DC5F7000CDCC9 /* SceneDelegate.swift */; };
 		ACB87A93296DC5F7000CDCC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB87A92296DC5F7000CDCC9 /* ViewController.swift */; };
-		ACB87A96296DC5F7000CDCC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB87A94296DC5F7000CDCC9 /* Main.storyboard */; };
 		ACB87A98296DC5F8000CDCC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB87A97296DC5F8000CDCC9 /* Assets.xcassets */; };
 		ACB87A9B296DC5F8000CDCC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB87A99296DC5F8000CDCC9 /* LaunchScreen.storyboard */; };
+		ACB87AA4296DC6B2000CDCC9 /* HomeLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB87AA3296DC6B2000CDCC9 /* HomeLoginVC.swift */; };
+		ACB87AA7296DC763000CDCC9 /* HomeLoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB87AA6296DC763000CDCC9 /* HomeLoginScreen.swift */; };
+		ACB87AA9296DD44E000CDCC9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACB87AA8296DD44E000CDCC9 /* GoogleService-Info.plist */; };
+		ACB87AAC296DD514000CDCC9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = ACB87AAB296DD514000CDCC9 /* FirebaseAuth */; };
+		ACB87AAE296E4782000CDCC9 /* CadastroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB87AAD296E4782000CDCC9 /* CadastroVC.swift */; };
+		ACB87AB0296E47B8000CDCC9 /* CadastroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB87AAF296E47B8000CDCC9 /* CadastroScreen.swift */; };
+		ACB87AB2296E52FB000CDCC9 /* ParabensVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB87AB1296E52FB000CDCC9 /* ParabensVC.swift */; };
+		ACE293CC296F227D009AA2AB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE293CB296F227D009AA2AB /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +27,16 @@
 		ACB87A8E296DC5F7000CDCC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACB87A90296DC5F7000CDCC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ACB87A92296DC5F7000CDCC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ACB87A95296DC5F7000CDCC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACB87A97296DC5F8000CDCC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACB87A9A296DC5F8000CDCC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACB87A9C296DC5F8000CDCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB87AA3296DC6B2000CDCC9 /* HomeLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLoginVC.swift; sourceTree = "<group>"; };
+		ACB87AA6296DC763000CDCC9 /* HomeLoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLoginScreen.swift; sourceTree = "<group>"; };
+		ACB87AA8296DD44E000CDCC9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ACB87AAD296E4782000CDCC9 /* CadastroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroVC.swift; sourceTree = "<group>"; };
+		ACB87AAF296E47B8000CDCC9 /* CadastroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroScreen.swift; sourceTree = "<group>"; };
+		ACB87AB1296E52FB000CDCC9 /* ParabensVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParabensVC.swift; sourceTree = "<group>"; };
+		ACE293CB296F227D009AA2AB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB87AAC296DD514000CDCC9 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +70,45 @@
 		ACB87A8D296DC5F7000CDCC9 /* AppLogin */ = {
 			isa = PBXGroup;
 			children = (
+				ACE293CA296F224D009AA2AB /* Alert */,
+				ACB87AA5296DC72C000CDCC9 /* Screen */,
+				ACB87AA2296DC662000CDCC9 /* Home */,
 				ACB87A8E296DC5F7000CDCC9 /* AppDelegate.swift */,
 				ACB87A90296DC5F7000CDCC9 /* SceneDelegate.swift */,
 				ACB87A92296DC5F7000CDCC9 /* ViewController.swift */,
-				ACB87A94296DC5F7000CDCC9 /* Main.storyboard */,
 				ACB87A97296DC5F8000CDCC9 /* Assets.xcassets */,
+				ACB87AA8296DD44E000CDCC9 /* GoogleService-Info.plist */,
 				ACB87A99296DC5F8000CDCC9 /* LaunchScreen.storyboard */,
 				ACB87A9C296DC5F8000CDCC9 /* Info.plist */,
 			);
 			path = AppLogin;
+			sourceTree = "<group>";
+		};
+		ACB87AA2296DC662000CDCC9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ACB87AA3296DC6B2000CDCC9 /* HomeLoginVC.swift */,
+				ACB87AAD296E4782000CDCC9 /* CadastroVC.swift */,
+				ACB87AB1296E52FB000CDCC9 /* ParabensVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		ACB87AA5296DC72C000CDCC9 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				ACB87AA6296DC763000CDCC9 /* HomeLoginScreen.swift */,
+				ACB87AAF296E47B8000CDCC9 /* CadastroScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		ACE293CA296F224D009AA2AB /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				ACE293CB296F227D009AA2AB /* Alert.swift */,
+			);
+			path = Alert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +127,9 @@
 			dependencies = (
 			);
 			name = AppLogin;
+			packageProductDependencies = (
+				ACB87AAB296DD514000CDCC9 /* FirebaseAuth */,
+			);
 			productName = AppLogin;
 			productReference = ACB87A8B296DC5F7000CDCC9 /* AppLogin.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +158,9 @@
 				Base,
 			);
 			mainGroup = ACB87A82296DC5F7000CDCC9;
+			packageReferences = (
+				ACB87AAA296DD514000CDCC9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = ACB87A8C296DC5F7000CDCC9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +177,7 @@
 			files = (
 				ACB87A9B296DC5F8000CDCC9 /* LaunchScreen.storyboard in Resources */,
 				ACB87A98296DC5F8000CDCC9 /* Assets.xcassets in Resources */,
-				ACB87A96296DC5F7000CDCC9 /* Main.storyboard in Resources */,
+				ACB87AA9296DD44E000CDCC9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +188,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE293CC296F227D009AA2AB /* Alert.swift in Sources */,
+				ACB87AB2296E52FB000CDCC9 /* ParabensVC.swift in Sources */,
 				ACB87A93296DC5F7000CDCC9 /* ViewController.swift in Sources */,
+				ACB87AAE296E4782000CDCC9 /* CadastroVC.swift in Sources */,
 				ACB87A8F296DC5F7000CDCC9 /* AppDelegate.swift in Sources */,
+				ACB87AA7296DC763000CDCC9 /* HomeLoginScreen.swift in Sources */,
+				ACB87AB0296E47B8000CDCC9 /* CadastroScreen.swift in Sources */,
 				ACB87A91296DC5F7000CDCC9 /* SceneDelegate.swift in Sources */,
+				ACB87AA4296DC6B2000CDCC9 /* HomeLoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ACB87A94296DC5F7000CDCC9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACB87A95296DC5F7000CDCC9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ACB87A99296DC5F8000CDCC9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +339,7 @@
 				INFOPLIST_FILE = AppLogin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,9 +349,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Hardsys.AppLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,7 +369,7 @@
 				INFOPLIST_FILE = AppLogin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,9 +379,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Hardsys.AppLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -356,6 +410,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ACB87AAA296DD514000CDCC9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ACB87AAB296DD514000CDCC9 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ACB87AAA296DD514000CDCC9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ACB87A83296DC5F7000CDCC9 /* Project object */;
 }
